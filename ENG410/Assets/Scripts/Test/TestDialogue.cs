@@ -15,19 +15,19 @@ public class TestDialogue : MonoBehaviour
 
   void Update()
   {
-    if (Input.GetKeyDown(KeyCode.Space))
-    {
-      if (!DialogueSystem.inst.isSpeaking
-        || DialogueSystem.inst.isWaitingForUserInput)
-      {
-        if (index >= s.Length)
-        {
-          return;
-        }
-        Say(s[index]);
-        ++index;
-      }
-    }
+    //if (Input.GetKeyDown(KeyCode.Space))
+    //{
+    //  if (!DialogueSystem.inst.isSpeaking
+    //    || DialogueSystem.inst.isWaitingForUserInput)
+    //  {
+    //    if (index >= s.Length)
+    //    {
+    //      return;
+    //    }
+    //    Say(s[index]);
+    //    ++index;
+    //  }
+    //}
   }
 
   void Say(string s)
