@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb5630db3e486bb438f417f2c2aef5bf, type: 3}
+  m_Name: Prologue
+  m_EditorClassIdentifier: 
+  story:
+  - '*Classroom:'
+  - 'It is the start of a brand new day. '
+  - 'Roused by the incessant sounds of <sfx> you stumble out of bed to get ready
+    for your day. '
+  - 'You stumble around your room filled with boxes of your belongings. '
+  - "You had only moved into your grandmother\u2019s house recently due to your parents'
+    work arrangement."
+  - "There was only 1 open box as you have not had the time to unpack your belongings
+    yet.\r"
+  - "You make your way down to the dining room where your breakfast is packed neatly
+    and ready to go.\r"
+  - "Your grandmother is taking a nap on her rocking chair.\r"
+  - "You:School time.\r "
+  - '*Please select a song*'
+  pBranches:
+  - {fileID: 11400000, guid: adeefc7f8048de24ea5280d790466305, type: 2}
+  - {fileID: 11400000, guid: 1ffceaf2cabee01439ff47f69bd43354, type: 2}
+  - {fileID: 11400000, guid: c3a629854f837f249a57c2c5100bab61, type: 2}

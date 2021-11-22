@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 160dcdf79ba74f64583106a02753e727
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Beaufort for LOL Ja
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e5cd18b3caf51104abe5a383ebc45a9b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

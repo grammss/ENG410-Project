@@ -7,11 +7,16 @@ public class DialogueSystem : MonoBehaviour
 {
   public static DialogueSystem inst;
 
+  public Font sysFont, diaFont;
   public ELEMENTS elements;
 
-  void Awake()
+  private void Awake()
   {
     inst = this;
+  }
+  private void Update()
+  {
+    //print(speaking);
   }
 
   /// <summary>
@@ -35,7 +40,10 @@ public class DialogueSystem : MonoBehaviour
 
     speaking = StartCoroutine(Speaking(speech, true, speaker));
   }
-
+  public void SkipText()
+  {
+    speakingIndex = maxIndex;
+  }
   public void StopSpeaking()
   {
     if (isSpeaking)
@@ -50,10 +58,16 @@ public class DialogueSystem : MonoBehaviour
 
   public string targetSpeech = "";
   Coroutine speaking = null;
+  int speakingIndex = 0;
+  int maxIndex = 0;
   IEnumerator Speaking(string speech, bool additive, string speaker = "")
   {
+    speakingIndex = 0;
+    if (!speech.EndsWith(" "))
+      speech += ' ';
+    maxIndex = speech.Length;
     speechPanel.SetActive(true);
-    targetSpeech = speech;
+    targetSpeech = speech + "</color>";
 
     if (!additive)
       speechText.text = "";
@@ -62,28 +76,37 @@ public class DialogueSystem : MonoBehaviour
 
     speakerNameText.text = DetermineSpeaker(speaker);//temporary
 
-    isWaitingForUserInput = false;
+    //isWaitingForUserInput = false;
 
-    while (speechText.text != targetSpeech)
+    speechText.text = targetSpeech;
+    for (; speakingIndex < speech.Length; speakingIndex++)
     {
-      speechText.text += targetSpeech[speechText.text.Length];
+      string tmpText = targetSpeech;
+
+      tmpText = tmpText.Insert(speakingIndex, "<color=#00000000>");
+      speechText.text = tmpText;
       yield return new WaitForEndOfFrame();
     }
+    speechText.text = speech;
 
     //text finished
-    isWaitingForUserInput = true;
-    while (isWaitingForUserInput)
-      yield return new WaitForEndOfFrame();
+    //isWaitingForUserInput = true;
+    //while (isWaitingForUserInput)
+    //  yield return new WaitForEndOfFrame();
 
     StopSpeaking();
   }
 
   string DetermineSpeaker(string s)
   {
+    speakerNamePanel.SetActive(true);
     string retVal = speakerNameText.text;//default return is the current name
     if (s != speakerNameText.text && s != "")
       retVal = (s.ToLower().Contains("narrator")) ? "" : s;
-
+    if (s == "")
+      speakerNamePanel.SetActive(false);
+    speechText.font = speakerNamePanel.activeInHierarchy ? diaFont : sysFont;
+    speechText.fontStyle = speakerNamePanel.activeInHierarchy ? FontStyle.Normal : FontStyle.Italic;
     return retVal;
   }
 
@@ -100,10 +123,12 @@ public class DialogueSystem : MonoBehaviour
     /// The main panel containing all dialogue related elements on the UI
     /// </summary>
     public GameObject speechPanel;
+    public GameObject speakerNamePanel;
     public Text speakerNameText;
     public Text speechText;
   }
   public GameObject speechPanel { get { return elements.speechPanel; } }
+  public GameObject speakerNamePanel { get { return elements.speakerNamePanel; } }
   public Text speakerNameText { get { return elements.speakerNameText; } }
   public Text speechText { get { return elements.speechText; } }
 }

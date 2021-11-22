@@ -6,12 +6,12 @@ public class TestDialogue : MonoBehaviour
 {
   public string[] s =
   {
-    "Hello, I am Grammama",
-    "I like big butts and I cannot lie",
-    "LULW",
+    "Hello, I am Lilia",
+    "I like you",
+    "Please don't leve me.",
   };
 
-  int index = 0;
+  //int index = 0;
 
   void Update()
   {

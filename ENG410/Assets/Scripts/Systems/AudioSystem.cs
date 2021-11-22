@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class AudioSystem : MonoBehaviour
 {
+  public static AudioSystem inst;
+
   public int browsing = 0, playing = 0;
   public AudioSource[] BGMs, SFXs;
   bool changedBGM = false;
@@ -15,16 +17,22 @@ public class AudioSystem : MonoBehaviour
 
   private void Awake()
   {
-    StartCoroutine(AudioLoop());
+    inst = this;
+    StartCoroutine(Loop());
     UpdateUI();
   }
 
   void UpdateUI()
   {
-    if (bannedSongs.Contains(browsing))
-      musicText.text = "Now Playing: " + songNames[playing] + "\n" + "Browsing: <color=red>" + songNames[browsing] + "</color>";
+    string sname = "";
+    if (playing >= 0 && playing < songNames.Length)
+      sname = songNames[playing];
     else
-      musicText.text = "Now Playing: " + songNames[playing] + "\n" + "Browsing: " + songNames[browsing];
+      sname = "-";
+    if (bannedSongs.Contains(browsing))
+      musicText.text = "Now Playing: " + sname + "\n" + "Browsing: <color=red>" + songNames[browsing] + "</color>";
+    else
+      musicText.text = "Now Playing: " + sname + "\n" + "Browsing: " + songNames[browsing];
   }
   public void BrowseNext()
   {
@@ -53,7 +61,7 @@ public class AudioSystem : MonoBehaviour
 
   }
 
-  IEnumerator AudioLoop()
+  IEnumerator Loop()
   {
     while (true)
     {
@@ -63,15 +71,17 @@ public class AudioSystem : MonoBehaviour
         {
           for (int i = 0; i < BGMs.Length; ++i)
             if (playing != i)
-              BGMs[i].Stop();
+              BGMs[i].volume = Mathf.Lerp(BGMs[i].volume, 0, t);
           yield return null;
         }
+        for (int i = 0; i < BGMs.Length; ++i)
+          if (playing != i)
+            BGMs[i].Stop();
         yield return null;
+        BGMs[playing].Play();
         for (float t = 0; t <= 1; t += Time.deltaTime * 2)
         {
-          for (int i = 0; i < BGMs.Length; ++i)
-            if (playing == i)
-              BGMs[i].Play();
+          BGMs[playing].volume = Mathf.Lerp(BGMs[playing].volume, 1, t);
           yield return null;
         }
         changedBGM = false;
