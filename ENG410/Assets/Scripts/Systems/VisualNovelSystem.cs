@@ -14,6 +14,19 @@ public class VisualNovelSystem : MonoBehaviour
   public bool waitingNewBGM = false;
   public Button playButton;
 
+  private float autoplayTime = 0;
+  [SerializeField]
+  private bool autoplay = false;
+  private int autospeed = 0;
+  private int textlength = 0;
+  [SerializeField]
+  private Color autoOnColor, autoOffColor;
+
+  public Button autoButton;
+  public Button speedButton;
+  public Image autoBtnOverlay;
+  public Text speedText;
+
   private void Awake()
   {
     inst = this;
@@ -25,6 +38,19 @@ public class VisualNovelSystem : MonoBehaviour
   {
     if (Input.GetKeyDown(KeyCode.Space))
       Progress();
+  }
+
+  public void ToggleAuto()
+  {
+    autoplay = !autoplay;
+    speedButton.interactable = autoplay;
+    autoBtnOverlay.color = autoplay ? autoOnColor : autoOffColor;
+    autoplayTime = 0;
+  }
+  public void ToggleSpeed()
+  {
+    autospeed = (autospeed + 1) % 4;
+    speedText.text = "x" + (autospeed + 1);
   }
 
   private void WaitNewBGM()
@@ -61,6 +87,21 @@ public class VisualNovelSystem : MonoBehaviour
   {
     while (true)
     {
+      if (!DialogueSystem.inst.isSpeaking
+        || DialogueSystem.inst.isWaitingForUserInput)
+      {
+        if (autoplay)
+        {
+          autoplayTime += Time.deltaTime * (autospeed + 1) * (1.0f / Mathf.Log10(textlength));
+          if (autoplayTime > 2)
+          {
+            autoplayTime -= 2;
+            Progress();
+          }
+        }
+      }
+
+
       if (progress)
       {
         progress = false;
@@ -123,6 +164,7 @@ public class VisualNovelSystem : MonoBehaviour
               {
                 DialogueSystem.inst.Say(speech, speaker);
                 skip = false;
+                textlength = speech.Length;
               }
               ++speechCount;
             }
