@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Sad
   m_EditorClassIdentifier: 
   story:
-  
   - "You sit down for class and the teacher steps in soon after.\r"
   - "There were only 9 students in class and the pace was much slower.\r"
   - "After the boring classes in the morning you head to the rooftop for lunch.\r"
