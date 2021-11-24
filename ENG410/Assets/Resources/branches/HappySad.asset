@@ -13,34 +13,40 @@ MonoBehaviour:
   m_Name: HappySad
   m_EditorClassIdentifier: 
   story:
-  - 'Feeling chipper, you set some happy tunes, get on your bicycle and go to school.
 
-'
-  - "In the rural countryside, there were only a few students on campus, contrasting
-    the bustling atmosphere of the school in the city you are used to.\r"
-  - "You sit down for class and the teacher steps in soon after.\r"
-  - "After the boring classes in the morning you head to the rooftop for lunch.\r"
-  - "A habit that stuck from your time in the city as the roof tops are generally
-    quiet and peaceful as it is out of bounds to students.\r"
-  - "It does not really affect you since you are not really a stickler for rules.\r"
-  - "Sitting in the shade, you unpack your packed lunch and start to leisurely eat
-    your lunch.\r"
-  - "It has been a week since you moved to the countryside to stay with your grandmother
-    due to your parent\u2019s work arrangement.\r"
-  - "Everything is much slower in the countryside and no one seems to care about
-    the rules.\r"
-  - "MC:Time to take a nap. \r"
-  - '{:'
-  - ...
-  - "GG:Hauu~~, where could it be?\r"
-  - '*Classroom:'
-  - "Roused by a cute voice I woke up to search for the voice.\r"
-  - "A short girl was on her knees bent over searching the rooftop.\r"
-  - "You:What are you doing?\r"
-  - "GG:Kyah, I didn't know there was someone here. I am searching for my hair ribbon.\r"
-  - "GG:It was an important gift from my best friend that I just received last week.
-    I must find it.\r"
-  - '*Please select a song*'
+  - "You:I will help you find it. What does it look like?\r"
+  - "Short girl:It is red with white frills on the sides with a star accessory.\r"
+  - "The clouds gather and the sky darkens.\r"
+  - "You:Don\u2019t worry, we will find it.\r"
+  - "You walk around and start searching the rooftop.\r"
+  - "Looking around the roof you spot a few suspicious areas.\r"
+  - "You look under the water tanks and there is dust and debris.\r"
+  - "A slight glimmer under the tank could be spotted.\r"
+  - "You reach in and grab what you think looks like a ribbon.\r"
+  - "You pulled out a worned out dull red ribbon bleached by the sun and time.\r"
+  - "The ribbon has the frills as described but they are grey with dirt and dust.\r"
+  - "The star accessory is scratched up and faded.\r"
+  - "You wonder if this ribbon belongs to the girl.\r"
+  - "You slip the ribbon in your pocket and walk over to the girl.\r"
+  - "The girl is still searching under some water tanks.\r"
+  - "You:Do you have any luck finding the ribbon?\r"
+  - "Short girl:Nope, no luck at all.\r"
+  - "You:Why don’t we go take a break in the library, the rain looks like it is coming in anytime too.\r"
+  - "Short girl:Sure, let's take shelter in the library then.\r"
+  - "You offer your hand to help her up.\r"
+  - "She did not seem to notice your hand as she stood up.\r"
+  - "You made your way to the library with the girl and hung out with her at the library. \r"
+  - "You found some common interest in some topics and read some books together.\r"
+  - "The bell chimes and the library is closing.\r"
+  - "You:Let\u2019s grab dinner at the cafeteria?.\r"
+  - "You hang out with the girl at the cafeteria. Your classmates passed by and you waved to them and they waved back before heading home.\r"
+  - "It was fun hanging out with this girl and you hope to see her again.\r"
+  - "You:I didn\u2019t catch your name.\r"
+  - "Short girl:Oh, I am Yorumi from 2-B.\r"
+  - "You:So, will I see you tomorrow? \r"
+  - "Short girl:Yeah, see you tomorrow.\r"
+  - "You:I bid farewell as I left school.\r"
+
   pBranches:
   - {fileID: 11400000, guid: 83e82f5c5c927714f9ed4898b31529a2, type: 2}
   - {fileID: 11400000, guid: 83e82f5c5c927714f9ed4898b31529a2, type: 2}

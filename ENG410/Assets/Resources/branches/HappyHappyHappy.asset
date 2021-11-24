@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb5630db3e486bb438f417f2c2aef5bf, type: 3}
+  m_Name: HappyHappyHappy
+  m_EditorClassIdentifier: 
+  story:
+  - "It is the start of a new day, you get ready and rush to school hoping to meet
+    the girl you met yesterday.\r "
+  - "You walk around the school but you don\u2019t see any signs of her.\r "
+  - "You drop by class 2-B and ask the class rep if she knows about Yorumi.\r "
+  - "However, everyone responded with a confused look and claimed that Yorumi does
+    not exist in the class.\r "
+  - "I get back to class and ask if my friends saw the girl I was with yesterday.\r "
+  - "My friends however all insist that I was alone yesterday.\r "
+  - "You wait till lunch break and head to the rooftop again.\r "
+  - "However no one was on the roof.\r "
+  - "I walked around and waited on the roof for several hours but no one came.\r "
+  - "I gave up and headed down the rooftop.\r "
+  - "As I go down the stairs I feel a strong grip on my shoulders.\r "
+  - "I turned around slowly to see what was happening.\r "
+  - "Scary voice:What are you doing on the roof!\r "
+  - "It is the discipline master.\r "
+  - "You:I was just checking if my friend Yorumi was on the roof.\r "
+  - "Discipline Master:Which class is she from?\r "
+  - "You:2-B?\r "
+  - "Discipline Master:Come over to my office right now.\r "
+  - "This is bad, sounds like I am in trouble. He probably thinks I am spouting nonsense.\r "
+  - "We enter his office and he locks the door and seats me down on the couch while
+    he pulls out a year book and thick file.\r "
+  - "The discipline master showed me a page in the year book.\r "
+  - "Discipline Master:Is that the Yorumi you were looking for?\r "
+  - "In the book was an old washed out photo of Yorumi.\r "
+  - "You:Yes this is her.\r "
+  - "Discipline Master:You are suspended for 1 month.\r "
+  - "That\u2019s pretty harsh for going to the roof.\r "
+  - "The discipline master showed me a cover of the book.\r "
+  - "Discipline Master:The book says 1983.\r "
+  - "Discipline Master:Yorumi is a former student who committed sucide over 40 years
+    ago in this school.\r "
+  - "Discipline Master:She was bullied by her peers and it eventually drove her to
+    sucide.\r "
+  - 
+  pBranches:
+  - {fileID: 11400000, guid: 83e82f5c5c927714f9ed4898b31529a2, type: 2}
+  - {fileID: 11400000, guid: 83e82f5c5c927714f9ed4898b31529a2, type: 2}
+  - {fileID: 11400000, guid: 83e82f5c5c927714f9ed4898b31529a2, type: 2}

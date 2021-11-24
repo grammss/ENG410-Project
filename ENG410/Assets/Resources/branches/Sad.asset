@@ -13,7 +13,22 @@ MonoBehaviour:
   m_Name: Sad
   m_EditorClassIdentifier: 
   story:
-  - Sad
+  
+  - "You sit down for class and the teacher steps in soon after.\r"
+  - "There were only 9 students in class and the pace was much slower.\r"
+  - "After the boring classes in the morning you head to the rooftop for lunch.\r"
+  - "A habit that stuck from your time in the city as the roof tops are generally quiet and peaceful as it is out of bounds to students.\r"
+  - "It does not really affect you since you are not really a stickler for rules.\r"
+  - "You reach the rooftop and find a quiet corner to eat your lunch but you notice a girl with disheveled hair searching the rooftop.\r"
+  - "You walk up to her to check if she needs help.\r"
+  - "You:Hey, is there something wrong?\r"
+  - "The girl:I can't find my ribbon.\r"
+  - "The girl was panicking.\r"
+  - "You:If you lost it recently it couldn’t have gone far.\r"
+  - "You:Why don’t you take a break, I will help you search in the meantime.\r"
+  - "You:How does it look like? Tell me more about it.\r"
+  - "< Select your music >\r"
+
   pBranches:
   - {fileID: 11400000, guid: 83e82f5c5c927714f9ed4898b31529a2, type: 2}
   - {fileID: 11400000, guid: 83e82f5c5c927714f9ed4898b31529a2, type: 2}
