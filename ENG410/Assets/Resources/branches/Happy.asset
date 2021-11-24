@@ -19,6 +19,7 @@ MonoBehaviour:
   - "In the rural countryside, there were only a few students on campus, contrasting
     the bustling atmosphere of the school in the city you are used to.\r"
   - "You sit down for class and the teacher steps in soon after.\r"
+  - "There were only 9 students in class and the pace was much slower.\r"
   - "After the boring classes in the morning you head to the rooftop for lunch.\r"
   - "A habit that stuck from your time in the city as the roof tops are generally
     quiet and peaceful as it is out of bounds to students.\r"
@@ -29,16 +30,16 @@ MonoBehaviour:
     due to your parent\u2019s work arrangement.\r"
   - "Everything is much slower in the countryside and no one seems to care about
     the rules.\r"
-  - "MC:Time to take a nap. \r"
+  - "You:Time to take a nap. \r"
   - '{:'
   - ...
-  - "GG:Hauu~~, where could it be?\r"
+  - "Short girl:Hauu~~, where could it be?\r"
   - '*Classroom:'
-  - "Roused by a cute voice I woke up to search for the voice.\r"
+  - "Roused by a cute voice, I woke up to search for the voice.\r"
   - "A short girl was on her knees bent over searching the rooftop.\r"
   - "You:What are you doing?\r"
-  - "GG:Kyah, I didn't know there was someone here. I am searching for my hair ribbon.\r"
-  - "GG:It was an important gift from my best friend that I just received last week.
+  - "Short girl:Kyah, I didn't know there was someone here. I am searching for my hair ribbon.\r"
+  - "Short girl:It was an important gift from my best friend that I just received last week.
     I must find it.\r"
   - '*Please select a song (can choose the same song)*'
   pBranches:
