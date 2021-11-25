@@ -30,9 +30,26 @@ public class AudioSystem : MonoBehaviour
     else
       sname = "-";
     if (bannedSongs.Contains(browsing))
-      musicText.text = "Now Playing: " + sname + "\n" + "Browsing: <color=red>" + songNames[browsing] + "</color>";
+    {
+      musicText.text = "Now Playing: " + sname + "\n" + "Browsing: <color=red>" + songNames[browsing] + " (BANNED)</color>";
+    }
     else
+    {
       musicText.text = "Now Playing: " + sname + "\n" + "Browsing: " + songNames[browsing];
+    }
+    if (VisualNovelSystem.inst.WaitingForSongChoice())
+      UpdatePlayButton();
+  }
+  public void UpdatePlayButton()
+  {
+    if (bannedSongs.Contains(browsing))
+    {
+      VisualNovelSystem.inst.DisablePlayButton();
+    }
+    else
+    {
+      VisualNovelSystem.inst.EnablePlayButton();
+    }
   }
   public void BrowseNext()
   {
@@ -53,6 +70,14 @@ public class AudioSystem : MonoBehaviour
     if (browsing == playing || bannedSongs.Contains(browsing))
       return;
     playing = browsing;
+    changedBGM = true;
+    UpdateUI();
+  }
+  public void PlaySpecific(int index)
+  {
+    if (browsing == playing || bannedSongs.Contains(browsing))
+      return;
+    playing = index;
     changedBGM = true;
     UpdateUI();
   }

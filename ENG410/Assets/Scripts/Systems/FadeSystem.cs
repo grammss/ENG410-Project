@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class FadeSystem : MonoBehaviour
 {
@@ -32,6 +33,7 @@ public class FadeSystem : MonoBehaviour
   {
     speed = Mathf.Clamp(speed, 1, 10);
     fadeQueue.Enqueue(FadeIn(fg, speed));
+    fadeQueue.Enqueue(ToggleFgFader(false));
   }
   public void FadeOutBackground(float speed = 1)
   {
@@ -46,7 +48,16 @@ public class FadeSystem : MonoBehaviour
   public void FadeOutForeground(float speed = 1)
   {
     speed = Mathf.Clamp(speed, 1, 10);
+    fadeQueue.Enqueue(ToggleFgFader(true));
     fadeQueue.Enqueue(FadeOut(fg, speed));
+  }
+  public void StartGame()
+  {
+    fadeQueue.Enqueue(LoadGame());
+  }
+  public void EndGame()
+  {
+    fadeQueue.Enqueue(LoadMenu());
   }
   IEnumerator FadeIn(Image img, float speed)
   {
@@ -69,6 +80,21 @@ public class FadeSystem : MonoBehaviour
     }
     img.color = Color.black;
     fading = false;
+  }
+  IEnumerator LoadGame()
+  {
+    SceneManager.LoadScene("Demo");
+    yield return null;
+  }
+  IEnumerator LoadMenu()
+  {
+    SceneManager.LoadScene("MainMenu");
+    yield return null;
+  }
+  IEnumerator ToggleFgFader(bool boolean)
+  {
+    fg.gameObject.SetActive(boolean);
+    yield return null;
   }
   IEnumerator Loop()
   {

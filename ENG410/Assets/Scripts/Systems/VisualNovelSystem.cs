@@ -34,6 +34,13 @@ public class VisualNovelSystem : MonoBehaviour
     Progress();
   }
 
+  private void Start()
+  {
+    FadeSystem.inst.FadeInForeground();
+    UpdateBannedSongs();
+    DisablePlayButton();
+  }
+
   private void Update()
   {
     if (Input.GetKeyDown(KeyCode.Space))
@@ -59,21 +66,30 @@ public class VisualNovelSystem : MonoBehaviour
     waitingNewBGM = true;
   }
 
-  private void EnablePlayButton()
+  public void EnablePlayButton()
   {
     playButton.interactable = true;
   }
 
-  private void DisablePlayButton()
+  public void DisablePlayButton()
   {
     playButton.interactable = false;
+  }
+
+  public void UpdateBannedSongs()
+  {
+    AudioSystem.inst.bannedSongs = new List<int>();
+    for (int i = 0; i < currentBranch.pBranches.Count; ++i)
+      if (!currentBranch.pBranches[i])
+        AudioSystem.inst.bannedSongs.Add(i);
   }
 
   public void ChoosePath()
   {
     currentBranch = currentBranch.pBranches[AudioSystem.inst.browsing];
-    DisablePlayButton();
     speechCount = 0;
+    UpdateBannedSongs();
+    DisablePlayButton();
     Progress();
   }
 
@@ -81,6 +97,11 @@ public class VisualNovelSystem : MonoBehaviour
   public void Progress()
   {
     progress = true;
+  }
+
+  public bool WaitingForSongChoice()
+  {
+    return speechCount >= currentBranch.story.Count;
   }
 
   IEnumerator Loop()
@@ -93,9 +114,9 @@ public class VisualNovelSystem : MonoBehaviour
         if (autoplay)
         {
           autoplayTime += Time.deltaTime * (autospeed + 1) * (1.0f / Mathf.Log10(textlength));
-          if (autoplayTime > 2)
+          if (autoplayTime > 4)
           {
-            autoplayTime -= 2;
+            autoplayTime -= 4;
             Progress();
           }
         }
@@ -117,12 +138,14 @@ public class VisualNovelSystem : MonoBehaviour
             if (currentBranch.pBranches.Count == 0)
             {
               // End game, roll credits?
-              MainMenu.inst.EndGame();
+              AudioSystem.inst.PlaySpecific(-1);
+              FadeSystem.inst.FadeInForeground();
+              FadeSystem.inst.EndGame();
             }
             else
             {
               // Choose new BGM
-              WaitNewBGM();
+              //WaitNewBGM();
             }
           }
           else

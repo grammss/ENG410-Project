@@ -13,22 +13,27 @@ MonoBehaviour:
   m_Name: Sad
   m_EditorClassIdentifier: 
   story:
+  - Feeling a little emo, you set some slow tunes, get on your bicycle and go to
+    school.
+  - "In the rural countryside, there were only a few students on campus, contrasting
+    the bustling atmosphere of the school in the city you are used to.\r"
   - "You sit down for class and the teacher steps in soon after.\r"
   - "There were only 9 students in class and the pace was much slower.\r"
   - "After the boring classes in the morning you head to the rooftop for lunch.\r"
-  - "A habit that stuck from your time in the city as the roof tops are generally quiet and peaceful as it is out of bounds to students.\r"
+  - "A habit that stuck from your time in the city as the roof tops are generally
+    quiet and peaceful as it is out of bounds to students.\r"
   - "It does not really affect you since you are not really a stickler for rules.\r"
-  - "You reach the rooftop and find a quiet corner to eat your lunch but you notice a girl with disheveled hair searching the rooftop.\r"
+  - "You reach the rooftop and find a quiet corner to eat your lunch but you notice
+    a girl with disheveled hair searching the rooftop.\r"
   - "You walk up to her to check if she needs help.\r"
   - "You:Hey, is there something wrong?\r"
   - "The girl:I can't find my ribbon.\r"
   - "The girl was panicking.\r"
-  - "You:If you lost it recently it couldn’t have gone far.\r"
-  - "You:Why don’t you take a break, I will help you search in the meantime.\r"
+  - "You:If you lost it recently it couldn\u2019t have gone far.\r"
+  - "You:Why don\u2019t you take a break, I will help you search in the meantime.\r"
   - "You:How does it look like? Tell me more about it.\r"
   - "< Select your music >\r"
-
   pBranches:
-  - {fileID: 11400000, guid: 83e82f5c5c927714f9ed4898b31529a2, type: 2}
-  - {fileID: 11400000, guid: 83e82f5c5c927714f9ed4898b31529a2, type: 2}
-  - {fileID: 11400000, guid: 83e82f5c5c927714f9ed4898b31529a2, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 5c6c400a4df25044b8f9a69ff33611a8, type: 2}
+  - {fileID: 0}

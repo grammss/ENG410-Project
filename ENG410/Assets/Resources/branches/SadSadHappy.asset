@@ -26,8 +26,5 @@ MonoBehaviour:
   - "You:You were without doubt loved.\r"
   - "The girl stared at you and faded away.\r"
   - "Yorumi:Thank you. \r"
-  - "< Select your music >\r"
-  pBranches:
-  - {fileID: 11400000, guid: 83e82f5c5c927714f9ed4898b31529a2, type: 2}
-  - {fileID: 11400000, guid: 83e82f5c5c927714f9ed4898b31529a2, type: 2}
-  - {fileID: 11400000, guid: 83e82f5c5c927714f9ed4898b31529a2, type: 2}
+  - END
+  pBranches: []

@@ -38,11 +38,12 @@ MonoBehaviour:
   - "Roused by a cute voice, I woke up to search for the voice.\r"
   - "A short girl was on her knees bent over searching the rooftop.\r"
   - "You:What are you doing?\r"
-  - "Short girl:Kyah, I didn't know there was someone here. I am searching for my hair ribbon.\r"
-  - "Short girl:It was an important gift from my best friend that I just received last week.
-    I must find it.\r"
+  - "Short girl:Kyah, I didn't know there was someone here. I am searching for my
+    hair ribbon.\r"
+  - "Short girl:It was an important gift from my best friend that I just received
+    last week. I must find it.\r"
   - '*Please select a song (can choose the same song)*'
   pBranches:
   - {fileID: 11400000, guid: e9cc74a183fd2144f8269f1ea4a7c211, type: 2}
-  - {fileID: 11400000, guid: cf66634e98f2a4347a3336b89c41b045, type: 2}
-  - {fileID: 11400000, guid: 40378c1c21434f14fb9d37af252f9a4b, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}

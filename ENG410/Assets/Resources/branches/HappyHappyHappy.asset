@@ -48,8 +48,5 @@ MonoBehaviour:
     ago in this school.\r "
   - "Discipline Master:She was bullied by her peers and it eventually drove her to
     sucide.\r "
-  - 
-  pBranches:
-  - {fileID: 11400000, guid: 83e82f5c5c927714f9ed4898b31529a2, type: 2}
-  - {fileID: 11400000, guid: 83e82f5c5c927714f9ed4898b31529a2, type: 2}
-  - {fileID: 11400000, guid: 83e82f5c5c927714f9ed4898b31529a2, type: 2}
+  - END
+  pBranches: []

@@ -12,6 +12,11 @@ public class MainMenu : MonoBehaviour
     inst = this;
   }
 
+  private void Start()
+  {
+    FadeSystem.inst.FadeInForeground();
+  }
+
   public void StartGame()
   {
     SceneManager.LoadScene("Demo");
