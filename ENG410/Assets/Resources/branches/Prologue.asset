@@ -13,20 +13,21 @@ MonoBehaviour:
   m_Name: Prologue
   m_EditorClassIdentifier: 
   story:
-  - '*Classroom:'
   - 'It is the start of a brand new day. '
-  - 'Roused by the incessant sounds of <sfx> you stumble out of bed to get ready
+  - 'Roused by the incessant sounds of your alarm you stumble out of bed to get ready
     for your day. '
-  - 'You stumble around your room filled with boxes of your belongings. '
-  - "You had only moved into your grandmother\u2019s house recently due to your parents'
-    work arrangement."
-  - "There was only 1 open box as you have not had the time to unpack your belongings
-    yet.\r"
-  - "You make your way down to the dining room where your breakfast is packed neatly
-    and ready to go.\r"
-  - "Your grandmother is taking a nap on her rocking chair.\r"
-  - "You:School time.\r "
-  - '*Please select a song*'
+  - 'You take your trusty music player from your bedside table. '
+  - You have an exam today, so you need the safety reassurance of your music player
+    in your pocket even more today.
+  - For as long as you can remember, this music player has always been with you.
+  - 'As long as you had it with you, you felt like the world was your oyster - nothing
+    could stop you. '
+  - 'In fact, sometimes you feel like the music you play completely changes what
+    happens around you. '
+  - '*WalkwayA:'
+  - 'Anyway, it''s time for school. You take your bag out to your bike and decide
+    on a song to play today. '
+  - '*Please select a song* '
   pBranches:
   - {fileID: 11400000, guid: adeefc7f8048de24ea5280d790466305, type: 2}
   - {fileID: 11400000, guid: 1ffceaf2cabee01439ff47f69bd43354, type: 2}

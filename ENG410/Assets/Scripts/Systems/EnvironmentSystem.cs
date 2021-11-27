@@ -35,7 +35,8 @@ public class EnvironmentSystem : MonoBehaviour
   {
     speed = Mathf.Clamp(_speed, 1, 10);
     int index = -1;
-    if (envDictionary.TryGetValue("Environment[" + _name + "]", out index))
+    //if (envDictionary.TryGetValue("Environment[" + _name + "]", out index))
+    if (envDictionary.TryGetValue("" + _name + "", out index))
       targetTexture = envs[index];
   }
 

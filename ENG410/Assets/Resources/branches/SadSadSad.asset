@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb5630db3e486bb438f417f2c2aef5bf, type: 3}
+  m_Name: SadSadSad
+  m_EditorClassIdentifier: 
+  story:
+  - 'Was it... sorrow? '
+  - 'You: This ribbon means a lot to you, doesn''t it? '
+  - 'You turn to the girl, who nods. '
+  - You suddenly remember that it was the exam week, and -
+  - 'You:Oh gosh, I just realized. The exam! You didn''t have your ribbon for the
+    exam! '
+  - 'You:Was the exam okay for you without the ribbon? '
+  - 'The girl smiles weakly. '
+  - 'Short Girl:Oh... right... you still don''t get it... do you...? '
+  - 'You shoot the girl a confused look. '
+  - 'She stares at you wistfully. '
+  - 'Short Girl:Well, I guess that''s not completely true. '
+  - 'She starts glancing around and shifting nervously. '
+  - 'Short Girl:You know... I have to confess something to you. '
+  - 'Short Girl:I... already know where my ribbon is. '
+  - 'You get even more confused. '
+  - 'You:But I thought you - '
+  - 'Short Girl:I... never liked you. '
+  - 'You:Excuse me? Um... I''m so sorry, have we met before? '
+  - You:You were waiting for me? What for?
+  - 'Short Girl:Well... to say I never liked you would be an understatement. '
+  - 'Short Girl:I actually completely hated you. '
+  - 'Short Girl:And for no good reason really. I... was just jealous of you. '
+  - 'Short Girl:I watched you with your stupid music player. Your good luck charm. '
+  - 'Short Girl:I knew what it meant to you. You took it everywhere you went. And
+    your life has been great. '
+  - 'Short Girl:Unlike me. '
+  - 'You:When you lost your ribbon... you must have been devastated. '
+  - 'You:I know I would be if I ever lost my music player. '
+  - 'The girl sighs. '
+  - 'Short Girl:I saw you listening to your ''lucky'' song so often... to make your
+    life better. '
+  - 'Short Girl:I can hear it. I hear you hum it all the time, so upbeat, so chipper,
+    it started to make me sick. '
+  - 'Short Girl:But today... today of all days... you never once listened to it. '
+  - 'You feel a little disturbed. '
+  - 'You:Wait, but I''ve never even seen you at this school before. I didn''t realize
+    someone was paying such close attention to me. '
+  - 'Short Girl:Well... I don''t go to this school anymore. '
+  - 'Short Girl:Wow... has it really been that long? 40 years... I was at this school
+    40 years ago. '
+  - 'You stare in shock as the girl fades away... '
+  - '...and fades back in. '
+  - You:You-- You're--
+  - 'Short Girl:I really did hate you. Truly. It was blind rage, really. '
+  - 'Short Girl:For the past 40 years, I''ve only been reenacting my death, over
+    and over. '
+  - 'Short Girl:But talking with you here... I can''t do it. '
+  - You:Do what?
+  - 'Short Girl:It''s... nothing. '
+  - 'She looks away, staring into the distance contemplatively. '
+  - Short Girl:I... I'm sorry for interrupting your day. It is your exam week. I-
+    I should go.
+  - '-:'
+  - 'The girl fades away. '
+  - 'You feel like you helped her out in some way, but you can''t help but feel there
+    was more to her story. '
+  - 'Regardless, you never saw her again. '
+  - 'Unsure what to think of the whole experience, you go to cafeteria to eat your
+    lunch and study for the next exam. '
+  pBranches: []

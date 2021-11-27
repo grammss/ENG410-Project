@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb5630db3e486bb438f417f2c2aef5bf, type: 3}
+  m_Name: SadSadSpookyExtend
+  m_EditorClassIdentifier: 
+  story:
+  - 'The change in music did not help. '
+  - 'No longer could you feel at ease. It didn''t matter what song you chose anymore. '
+  - 'You constantly felt like you were being watched. You could hardly concentrate
+    on your studying. '
+  - '*Classroom:'
+  - 'The exam was no better. You could barely focus and could hardly recall your
+    studies. '
+  - '*WalkwayB:'
+  - 'At the end of the day, you walked home with some friends, unable to stand being
+    alone anymore. '
+  - 'You had never felt so much unease in your life. Something had to change, now. '
+  - 'You take a look at your music player. '
+  - 'The spooky song was what did it. Wasn''t it? '
+  - 'Your friends tell you it''s all in your head. But you know something was just
+    wrong. '
+  - '<:'
+  - 'You had to do it. Your friends were shocked, but it had to be done. '
+  - 'The effect was almost immediate. You felt the unease lift as soon as the music
+    player left your hand and into the garbage. '
+  - 'You were starting to grow out of needing this crutch of a music player anyway. '
+  - 'It was going to be a brand new you. '
+  - 'One of your friends joked that you are finally an adult, no longer a baby. '
+  - 'Another one of your friends joked that the music player may have been haunted. '
+  - 'You:Heh. Maybe. '
+  - 'You:But at least I''m no longer defined by something else. '
+  pBranches: []

@@ -12,5 +12,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb5630db3e486bb438f417f2c2aef5bf, type: 3}
   m_Name: SadSad
   m_EditorClassIdentifier: 
-  story: []
-  pBranches: []
+  story:
+  - 'The ribbon seems like it means a lot to the girl. You decide to that some slow
+    emotional music would fit the ambience. '
+  - 'A small ribbon would be hard to find. In the meantime, you decide to talk to
+    the girl to pass the time. '
+  - 'You:So this ribbon, it must mean a lot to you if you keep searching for it. '
+  - 'Short Girl:How do you mean? '
+  - 'You:Well, I mean with something so small and cheap, if it were me, I''d just
+    buy a new one. '
+  - 'The girl frowns at you. '
+  - 'Short Girl:This isn''t just any ribbon. It''s my only ribbon. My favourite ribbon.
+    My lucky charm. '
+  - 'Short Girl:If you''d lost that music player you''re always carrying around,
+    wouldn''t you search for it too? '
+  - 'That struck a chord with you. '
+  - 'You:Of course I would search for it. It''s irreplaceable. '
+  - 'You:But I see what you mean. You know, this music player''s kind of like my
+    lucky charm too. I always have it with me. '
+  - 'Short Girl:I know. '
+  - 'You pause your search for a moment and look at the girl. '
+  - 'Everyone in school knows you always have your music player and headphones, even
+    schoolmates you never met. '
+  - 'So it wasn''t that strange that this girl would know about it. '
+  - 'But still, you could sense something in the tone the girl spoke with... '
+  - '*Please select a song (can choose the same song)* '
+  pBranches:
+  - {fileID: 11400000, guid: 5c6c400a4df25044b8f9a69ff33611a8, type: 2}
+  - {fileID: 11400000, guid: eaaf18087b6c66e4cb0bce8ac616b83f, type: 2}
+  - {fileID: 11400000, guid: 711bc90d76b92fb498eb5b4c7f56cc37, type: 2}

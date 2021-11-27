@@ -12,5 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb5630db3e486bb438f417f2c2aef5bf, type: 3}
   m_Name: SadSadSpooky
   m_EditorClassIdentifier: 
-  story: []
-  pBranches: []
+  story:
+  - 'Was it... malice? '
+  - 'Suddenly you feel butterflies in your stomach. You stop in your tracks, no longer
+    searching for the ribbon. '
+  - 'Why did you pick this spooky song now? It was starting to influence your thoughts. '
+  - 'Short Girl:Why did you stop? '
+  - 'Something about her tone sent a chill down your spine. '
+  - '*StaircaseA:'
+  - 'Then, something clicked in your brain, and you decided to bolt for the exit.
+    The girl was too far from you to catch up. '
+  - '*Hallway:'
+  - 'You quickly run into some of your classmates. Feeling the need to be with people,
+    you decide to follow them to the cafeteria to eat your lunch and study for the
+    next exam. '
+  - '*Cafeteria:'
+  - 'But still, you cannot help but feel on edge, like you''re being watched at all
+    times. You should really change the music. '
+  - '*Please select a song* '
+  pBranches:
+  - {fileID: 11400000, guid: 727ec16185ec546429f090412de4aa06, type: 2}
+  - {fileID: 11400000, guid: 727ec16185ec546429f090412de4aa06, type: 2}
+  - {fileID: 0}

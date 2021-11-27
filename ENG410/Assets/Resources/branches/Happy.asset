@@ -13,37 +13,40 @@ MonoBehaviour:
   m_Name: Happy
   m_EditorClassIdentifier: 
   story:
-  - 'Feeling chipper, you set some happy tunes, get on your bicycle and go to school.
-
-'
-  - "In the rural countryside, there were only a few students on campus, contrasting
-    the bustling atmosphere of the school in the city you are used to.\r"
-  - "You sit down for class and the teacher steps in soon after.\r"
-  - "There were only 9 students in class and the pace was much slower.\r"
-  - "After the boring classes in the morning you head to the rooftop for lunch.\r"
+  - 'You did study for the exam today, but still, your happy, upbeat music would
+    surely boost your confidence even further for it. '
+  - You set some fast tunes, get on your bicycle and go to school.
+  - '*Classroom:'
+  - "You sit down for class and the teacher steps in soon after.\r The exam is starting
+    now. "
+  - '2 hours later... '
+  - 'Whew! The exam would have been tough had you not studied for it. The confidence
+    boost from listening to your happy music really helped too. '
+  - '*RoofA:'
   - "A habit that stuck from your time in the city as the roof tops are generally
-    quiet and peaceful as it is out of bounds to students.\r"
-  - "It does not really affect you since you are not really a stickler for rules.\r"
+    quiet and peaceful as it is out of bounds to students.\r "
+  - "It does not really affect you since you are not really a stickler for rules.\r "
   - "Sitting in the shade, you unpack your packed lunch and start to leisurely eat
-    your lunch.\r"
-  - "It has been a week since you moved to the countryside to stay with your grandmother
-    due to your parent\u2019s work arrangement.\r"
+    your lunch.\r "
   - "Everything is much slower in the countryside and no one seems to care about
-    the rules.\r"
+    the rules.\r "
   - "You:Time to take a nap. \r"
   - '{:'
   - ...
-  - "Short girl:Hauu~~, where could it be?\r"
-  - '*Classroom:'
-  - "Roused by a cute voice, I woke up to search for the voice.\r"
-  - "A short girl was on her knees bent over searching the rooftop.\r"
-  - "You:What are you doing?\r"
-  - "Short girl:Kyah, I didn't know there was someone here. I am searching for my
-    hair ribbon.\r"
-  - "Short girl:It was an important gift from my best friend that I just received
-    last week. I must find it.\r"
-  - '*Please select a song (can choose the same song)*'
+  - "???:Hauu~~, where could it be?\r "
+  - '*RoofA:'
+  - "Roused by a cute voice, you woke up to search for the voice.\r "
+  - '>worried:'
+  - "A short girl was on her knees bent over searching the rooftop.\r "
+  - "You:What are you doing?\r "
+  - '>distressed:'
+  - "Short Girl:Kyah, I didn't know there was someone here. I am searching for my
+    hair ribbon.\r "
+  - '>worried:'
+  - "Short Girl:It was an important gift from my best friend that I just received
+    last week. I must find it.\r "
+  - '*Please select a song (can choose the same song)* '
   pBranches:
   - {fileID: 11400000, guid: e9cc74a183fd2144f8269f1ea4a7c211, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 33ed844e91fe5c147a32c4deb9838e11, type: 2}
+  - {fileID: 11400000, guid: 78f4a129ffc9d9b409d42984db2a6be7, type: 2}

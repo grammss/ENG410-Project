@@ -173,7 +173,23 @@ public class VisualNovelSystem : MonoBehaviour
                 // change portrait
                 else if (speaker[0] == '>')
                 {
-
+                  string[] sparts = speaker.Split('>');
+                  CharacterSystem.inst.ChangeCharacter(sparts[1]);
+                }
+                // fade portrait
+                else if (speaker[0] == '-')
+                {
+                  CharacterSystem.inst.fade = true;
+                }
+                // fade ribbon
+                else if (speaker[0] == '+')
+                {
+                  CharacterSystem.inst.ToggleRibbon(true);
+                }
+                // cut the music
+                else if (speaker[0] == '<')
+                {
+                  AudioSystem.inst.PlaySpecific(-1);
                 }
                 // normal dialogue
                 else

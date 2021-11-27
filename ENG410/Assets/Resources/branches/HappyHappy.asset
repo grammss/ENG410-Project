@@ -13,45 +13,26 @@ MonoBehaviour:
   m_Name: HappyHappy
   m_EditorClassIdentifier: 
   story:
-  - "You:I will help you find it. What does it look like?\r"
-  - "GG:It is red with white frills on the sides with a star accessory.\r"
-  - "The clouds gather and the sky darkens.\r"
-  - "You:We will find it. You walk around and start searching the rooftop.\r"
-  - "Looking around the roof you spot a few suspicious areas.\r You look under the
-    water tanks and there is dust and debris.\r "
-  - "A slight glimmer under the tank could be spotted.\r You reach in and grab what
-    you think looks like a ribbon.\r You pulled out a worned out dull red ribbon
-    bleached by the sun and time.\r"
-  - "The ribbon has the frills as described but they are grey with dirt and dust.\r
-    The star accessory is scratched up and faded.\r You wonder if this ribbon belongs
-    to the girl.\r"
-  - "You slip the ribbon in your pocket and walk over to the girl, who is still searching
-    under some water tanks.\r You show her the ribbon you found.\r "
-  - "She thanks you profusely and wears it carefully.\r"
-  - "You:Why don\u2019t we go take a break in the library, the rain looks like it
-    is coming in anytime too.\r"
-  - "GG:Sure, let's take shelter in the library then.\r"
-  - "You offer your hand to help her up.\r She did not seem to notice.\r"
-  - "You made your way to the library with the girl and hung out with her at the
-    library. \r"
-  - 'You found some common interest in some topics and read some books together.
-
-'
-  - "Roused by a cute voice I woke up to search for the voice.\r"
-  - "The bell chimes and the library is closing.\r"
-  - "You:Let\u2019s grab dinner at the cafeteria?\r"
-  - 'You hang out with the girl at the cafeteria. Your classmates passed by and you
-    waved to them and they waved back before heading home.
-
-'
-  - "It was fun hanging out with this girl and you hope to see her again.\r"
-  - "You:I didn\u2019t catch your name.\r"
-  - "Yorumi:Oh, I am Yorumi from 2-B.\r"
-  - "You:So, will I see you tomorrow? \r\n"
-  - "Yorumi:Yeah, see you tomorrow.\r"
-  - "I bid farewell as I left school.\r"
-  - '*Please select a song (can choose the same song)*'
+  - 'You:I will help you find it. You know, I have my lucky music player here. It''s
+    playing my happiest tune now, so we''ll be sure find it. '
+  - 'Short Girl:Oh ok. Great~! '
+  - '-:'
+  - 'Sure enough, you quickly find the ribbon under one of the water tanks. Just
+    as you knew you would. '
+  - 'You excitedly return to the girl, feeling like a hero. '
+  - 'Short Girl:Wow, you actually found it. I''ve been searching for it for 4 days.
+    Thanks so much. '
+  - '+:'
+  - She carefully wears it, with a gleam in her eye. She starts to leave, but you
+    quickly say something.
+  - This girl... she seems really nice, so you hope to get to know her better. This
+    is your chance!
+  - 'You: Hey, so what''s your name? '
+  - 'Yorumi: It''s Yorumi. I''m from class 2B. '
+  - She suddenly seems very interested in you. For some reason, you feel butterflies
+    in your stomach.
+  - '*Please select a song (can choose the same song)* '
   pBranches:
-  - {fileID: 11400000, guid: 83e82f5c5c927714f9ed4898b31529a2, type: 2}
-  - {fileID: 11400000, guid: 83e82f5c5c927714f9ed4898b31529a2, type: 2}
-  - {fileID: 11400000, guid: 83e82f5c5c927714f9ed4898b31529a2, type: 2}
+  - {fileID: 11400000, guid: e552bb82b22d7f04f80bd2908e39a4bd, type: 2}
+  - {fileID: 11400000, guid: efeb6e9139602c3409a905c6254a06c2, type: 2}
+  - {fileID: 11400000, guid: f7d8fcf574d7b1f459372e894ce833d2, type: 2}

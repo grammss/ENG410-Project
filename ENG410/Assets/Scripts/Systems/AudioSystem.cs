@@ -75,8 +75,6 @@ public class AudioSystem : MonoBehaviour
   }
   public void PlaySpecific(int index)
   {
-    if (browsing == playing || bannedSongs.Contains(browsing))
-      return;
     playing = index;
     changedBGM = true;
     UpdateUI();
@@ -103,11 +101,14 @@ public class AudioSystem : MonoBehaviour
           if (playing != i)
             BGMs[i].Stop();
         yield return null;
-        BGMs[playing].Play();
-        for (float t = 0; t <= 1; t += Time.deltaTime * 2)
+        if (playing >= 0 && playing < BGMs.Length)
         {
-          BGMs[playing].volume = Mathf.Lerp(BGMs[playing].volume, 1, t);
-          yield return null;
+          BGMs[playing].Play();
+          for (float t = 0; t <= 1; t += Time.deltaTime * 2)
+          {
+            BGMs[playing].volume = Mathf.Lerp(BGMs[playing].volume, 1, t);
+            yield return null;
+          }
         }
         changedBGM = false;
       }

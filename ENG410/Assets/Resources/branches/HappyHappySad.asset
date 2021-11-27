@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb5630db3e486bb438f417f2c2aef5bf, type: 3}
+  m_Name: HappyHappySad
+  m_EditorClassIdentifier: 
+  story:
+  - 'The butterflies in your stomach aren''t going away. Something was wrong. '
+  - 'You suddenly noticed Yorumi''s eyes. They were bloodshot. '
+  - 'You:Oh- Oh no! '
+  - 'Yorumi looks confused. '
+  - Yorumi:What's wrong?
+  - 'You:Your eyes! They are so red! '
+  - 'Yorumi looks annoyed now. '
+  - 'Yorumi:Are you insulting my eyes? '
+  - You:No! No! Of course not. But your eyes! Have you been crying? Or not sleeping
+    well?
+  - 'You:Oh no, did you pull an all nighter for the exam? '
+  - 'Yorumi looks at you funny for a moment. '
+  - 'Yorumi:You... I... '
+  - 'Yorumi starts crying softly. A tear rolls down her cheek. '
+  - You:Yorumi! Are you okay?!
+  - 'Yorumi:I... don''t know. '
+  - 'Yorumi:I mean, look at me! '
+  - 'Yorumi:What am I doing? '
+  - 'Yorumi:What happened to me? '
+  - Yorumi:Why did I do that? Was it really all that important?
+  - You:Yorumi, what are you talking about? Do you need help?
+  - 'You:There''s a school counsellor at the office building, you know. '
+  - 'Yorumi wipes her tears. '
+  - 'Yorumi:You don''t understand anything about me, do you? '
+  - 'Yorumi:I... I''m sorry. I''m really sorry. '
+  - 'You:Yorumi... what do you need? '
+  - 'Yorumi:Only one last thing that should happen. '
+  - 'Yorumi walks over to the rooftop ledge. '
+  - 'Realizing what she''s about to do, you run and grab Yorumi by the arm. '
+  - 'You:Yorumi! Please! Don''t do this! Talk to me! '
+  - 'You:Please. Whatever problems you have, just vent it all out to me. '
+  - 'Yorumi stares at you, her eyes filling with tears again. '
+  - 'Yorumi:I never should have gotten you involved in this. This is all my fault! '
+  - 'With surprising strength, she pulls away from your grip and jumps from the rooftop. '
+  - 'You rush to look down at her falling, not really sure what else to do. '
+  - 'But, strangely, Yorumi wasn''t falling. In fact, you couldn''t see her anywhere
+    at all. '
+  - 'Confused, you rushed to the ground floor, but could not find her body. '
+  - 'Unsure what to think of the whole experience, you go to cafeteria to study for
+    the next exam. '
+  pBranches: []

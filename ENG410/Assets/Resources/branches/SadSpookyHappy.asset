@@ -10,29 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb5630db3e486bb438f417f2c2aef5bf, type: 3}
-  m_Name: HappyHappyHappy
+  m_Name: SadSpookyHappy
   m_EditorClassIdentifier: 
   story:
-  - 'The butterflies in your stomach aren''t going away. It must be your nerves.
-    You''ve never asked out a girl before. '
-  - 'But with this happy music playing, your good luck song, this can only end well
-    for you. '
-  - 'You:Nice to meet you. Would you like to hang out? '
-  - 'Yorumi starts laughing. Cute little giggles. Oh no. You said something wrong,
-    didn''t you? '
-  - 'But with this happy music playing, you can''t go wrong. Maybe she''s laughing
-    because she thinks I''m cute? '
-  - 'With that thought, you regain your confidence and try again. '
-  - 'You: There''s still 2 hours before the next exam. So maybe we could -'
-  - '<:'
-  - 'Yorumi suddenly rips the headphone off your head! '
-  - 'She throws both the headphones and music player on the floor and then pushes
-    you to the ground. '
-  - 'You:OW! HEY! '
-  - Yorumi:You still don't get it, do you?
-  - 'Confused and shaken at your music player being taken from you, you shake your
-    head rapidly. '
-  - 'Yorumi:I''ve been watching you. YOU. And your stupid music player. '
+  - 'You managed to play your happy-go-lucky tune during this whole ordeal. '
+  - Yorumi:I HATE THAT SONG!
+  - You:What?!
+  - 'She could hear it?! '
+  - 'She stops walking for a moment and throws you on the floor, just to explain. '
   - 'Yorumi:Every time you play your stupid lucky song and start coasting through
     life. '
   - Yorumi:Ooh, look at me! I just play my happy song and everything goes well for
@@ -44,10 +29,10 @@ MonoBehaviour:
     of your identity and were cool with it. '
   - 'You managed to stutter out an apology. '
   - 'You:I- I- I''m sorry. I- I don''t know what to s-say. I- '
-  - 'Yorumi suddenly stomps on the music player and headphones, with a very audible
-    crunch. You could only stare in absolute shock. '
-  - 'Yorumi cackles as she looks down at you on the ground, stuttering, when just
-    moments ago you felt like her hero finding her ribbon. '
+  - 'Yorumi suddenly rips the headphone off your head! '
+  - 'You:OW! HEY! '
+  - 'She stomps on the music player and headphones, with a very audible crunch. You
+    could only stare in absolute shock. '
   - 'Yorumi:This is just how it happened. How it always happens. '
   - 'With surprising strength, Yorumi picks you up in her arms and carries you to
     the roof top edge. '
