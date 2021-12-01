@@ -29,12 +29,14 @@ MonoBehaviour:
   - '<:'
   - '^:'
   - '0:'
+  - '6:'
   - '>evil angry:'
   - 'Yorumi suddenly rips the headphone off your head! '
   - '$:'
   - '>happy evil:'
   - 'She throws both the headphones and music player on the floor and then pushes
     you to the ground. '
+  - '7:'
   - '>annoyed:'
   - 'You:OW! HEY! '
   - Yorumi:You still don't get it, do you?

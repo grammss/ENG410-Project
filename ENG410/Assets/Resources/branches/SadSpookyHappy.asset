@@ -44,6 +44,7 @@ MonoBehaviour:
   - 'You:I- I- I''m sorry. I- I don''t know what to s-say. I- '
   - '$:'
   - '<:'
+  - '6:'
   - '^:'
   - '>evil angry:'
   - 'Yorumi suddenly rips the headphone off your head! '
@@ -55,6 +56,7 @@ MonoBehaviour:
   - '>happy evil:'
   - '$:'
   - '^:'
+  - '7:'
   - '2:'
   - 'She stomps on the music player and headphones, with a very audible crunch. You
     could only stare in absolute shock. '

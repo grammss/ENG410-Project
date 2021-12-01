@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   story:
   - 'The butterflies in your stomach aren''t going away. Something was wrong. '
+  - 'You put on your spookiest music to start thinking with your brain instead. '
   - 'You suddenly noticed Yorumi''s eyes. They were bloodshot. '
   - '>annoyed:'
   - Cautiously, you back away from Yorumi. There was something strange about this
