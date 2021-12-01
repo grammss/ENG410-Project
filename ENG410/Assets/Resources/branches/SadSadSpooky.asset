@@ -17,7 +17,10 @@ MonoBehaviour:
   - 'Suddenly you feel butterflies in your stomach. You stop in your tracks, no longer
     searching for the ribbon. '
   - 'Why did you pick this spooky song now? It was starting to influence your thoughts. '
+  - '>smug:'
+  - '^:'
   - 'Short Girl:Why did you stop? '
+  - '-:'
   - 'Something about her tone sent a chill down your spine. '
   - '*StaircaseA:'
   - 'Then, something clicked in your brain, and you decided to bolt for the exit.
@@ -29,7 +32,7 @@ MonoBehaviour:
   - '*Cafeteria:'
   - 'But still, you cannot help but feel on edge, like you''re being watched at all
     times. You should really change the music. '
-  - '*Please select a song* '
+  - '*Please select a song (cannot choose the same song)* '
   pBranches:
   - {fileID: 11400000, guid: 727ec16185ec546429f090412de4aa06, type: 2}
   - {fileID: 11400000, guid: 727ec16185ec546429f090412de4aa06, type: 2}

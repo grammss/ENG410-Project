@@ -63,6 +63,8 @@ public class VisualNovelSystem : MonoBehaviour
   private void WaitNewBGM()
   {
     EnablePlayButton();
+    AudioSystem.inst.BrowseNext();
+    AudioSystem.inst.BrowsePrev();
     waitingNewBGM = true;
   }
 
@@ -139,13 +141,13 @@ public class VisualNovelSystem : MonoBehaviour
             {
               // End game, roll credits?
               AudioSystem.inst.PlaySpecific(-1);
-              FadeSystem.inst.FadeInForeground();
+              FadeSystem.inst.FadeOutForeground();
               FadeSystem.inst.EndGame();
             }
             else
             {
               // Choose new BGM
-              //WaitNewBGM();
+              WaitNewBGM();
             }
           }
           else
@@ -191,6 +193,74 @@ public class VisualNovelSystem : MonoBehaviour
                 {
                   AudioSystem.inst.PlaySpecific(-1);
                 }
+                // girl hops
+                else if (speaker[0] == '^')
+                {
+                  CharacterSystem.inst.hop = true;
+                }
+                // toggle boy
+                else if (speaker[0] == '&')
+                {
+                  CharacterSystem.inst.boyOn = !CharacterSystem.inst.boyOn;
+                }
+                // shake
+                else if (speaker[0] == '$')
+                {
+                  FadeSystem.inst.Shake();
+                }
+                // horror strings
+                else if (speaker[0] == '0')
+                {
+                  AudioSystem.inst.PlaySFX(0);
+                }
+                // crunch
+                else if (speaker[0] == '1')
+                {
+                  AudioSystem.inst.PlaySFX(1);
+                }
+                // thud
+                else if (speaker[0] == '2')
+                {
+                  AudioSystem.inst.PlaySFX(2);
+                }
+                // rib item
+                else if (speaker[0] == '3')
+                {
+                  AudioSystem.inst.PlaySFX(3);
+                }
+                // rib item
+                else if (speaker[0] == '4')
+                {
+                  CharacterSystem.inst.rib.gameObject.SetActive(true);
+                }
+                // cat item
+                else if (speaker[0] == '5')
+                {
+                  CharacterSystem.inst.cat.gameObject.SetActive(true);
+                }
+                // mp item
+                else if (speaker[0] == '6')
+                {
+                  CharacterSystem.inst.mp.gameObject.SetActive(true);
+                }
+                // mp item
+                else if (speaker[0] == '8')
+                {
+                  CharacterSystem.inst.rip.gameObject.SetActive(true);
+                }
+                // mp item
+                else if (speaker[0] == '9')
+                {
+                  AudioSystem.inst.PlaySFX(4);
+                }
+                // hide item
+                else if (speaker[0] == '7')
+                {
+                  CharacterSystem.inst.rib.gameObject.SetActive(false);
+                  CharacterSystem.inst.cat.gameObject.SetActive(false);
+                  CharacterSystem.inst.mp.gameObject.SetActive(false);
+                  CharacterSystem.inst.rip.gameObject.SetActive(false);
+                }
                 // normal dialogue
                 else
                 {
@@ -208,7 +278,16 @@ public class VisualNovelSystem : MonoBehaviour
               ++speechCount;
             }
             if (speechCount >= currentBranch.story.Count)
-              WaitNewBGM();
+            {
+              if (currentBranch.pBranches.Count == 0)
+              {
+              }
+              else
+              {
+                // Choose new BGM
+                WaitNewBGM();
+              }
+            }
           }
         }
       }

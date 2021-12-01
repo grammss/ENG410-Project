@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb5630db3e486bb438f417f2c2aef5bf, type: 3}
+  m_Name: SpookyHappy
+  m_EditorClassIdentifier: 
+  story:
+  - '^:'
+  - '>evil angry:'
+  - 'As soon as you switch the song to your favourite happy tune, Yorumi screeches
+    bloody murder. '
+  - '^:'
+  - 'Yorumi:IT''S THAT STUPID SONG AGAIN! '
+  - 'She can hear your song?! '
+  - '<:'
+  - '$:'
+  - '0:'
+  - '^:'
+  - 'Yorumi rips the headphones off your head! '
+  - '$:'
+  - '^:'
+  - 'With surprising strength, Yorumi then picks you up and throws you over the roof
+    ledge! '
+  - '-:'
+  - '{:'
+  - 'All within 10 seconds. With no explanation whatsoever. You are now plummeting
+    to your death. '
+  - 'That was a surprise, you think to yourself. '
+  - 'Hey, you wanted adventure, you got it. '
+  - '2:'
+  - '$:'
+  - '*THUD*'
+  pBranches: []

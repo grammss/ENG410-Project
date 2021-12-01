@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: SadSad
   m_EditorClassIdentifier: 
   story:
+  - '-:'
   - 'The ribbon seems like it means a lot to the girl. You decide to that some slow
     emotional music would fit the ambience. '
   - 'A small ribbon would be hard to find. In the meantime, you decide to talk to
@@ -21,16 +22,22 @@ MonoBehaviour:
   - 'Short Girl:How do you mean? '
   - 'You:Well, I mean with something so small and cheap, if it were me, I''d just
     buy a new one. '
+  - '>bored:'
   - 'The girl frowns at you. '
+  - '^:'
   - 'Short Girl:This isn''t just any ribbon. It''s my only ribbon. My favourite ribbon.
     My lucky charm. '
+  - '^:'
   - 'Short Girl:If you''d lost that music player you''re always carrying around,
     wouldn''t you search for it too? '
+  - '>worried:'
   - 'That struck a chord with you. '
   - 'You:Of course I would search for it. It''s irreplaceable. '
   - 'You:But I see what you mean. You know, this music player''s kind of like my
     lucky charm too. I always have it with me. '
+  - '>smug:'
   - 'Short Girl:I know. '
+  - '>bored:'
   - 'You pause your search for a moment and look at the girl. '
   - 'Everyone in school knows you always have your music player and headphones, even
     schoolmates you never met. '

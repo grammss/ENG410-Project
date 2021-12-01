@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb5630db3e486bb438f417f2c2aef5bf, type: 3}
+  m_Name: Spooky
+  m_EditorClassIdentifier: 
+  story:
+  - 'You did study for the exam today, but for some reason, you feels up for thrills
+    and adventure. '
+  - 'It must be the from getting couped up and studying so much. Your mind and body
+    is craving some danger! '
+  - 'You decide to put on your spookiest song, normally one you''d play for Halloween
+    ambience. Why not? '
+  - 'Strange things always seem to happen when you play this song - at least, you
+    start to get a heightened sense of alert. '
+  - '7:'
+  - '{:'
+  - Later...
+  - '*Hallway:'
+  - 'Speaking of strange things, as you walk along the hallway and approach your
+    classroom, out of the corner of your eye... '
+  - '5:'
+  - '...you notice a strange black cat. '
+  - '9:'
+  - 'It was sitting at the entrance of the staircase at the end of the hallway. That
+    staircase leads to the rooftop. '
+  - 'You don''t remember the school having any cats before. '
+  - 'Aren''t black cats a symbol of bad luck or something? '
+  - '9:'
+  - 'As you turns to look at the cat, it cocks its head to the side, acknowledging
+    your stare. '
+  - 'The cat gets up... and appears to beckon you to follow it up the staircase. '
+  - '7:'
+  - 'This is starting to get strange... but almost like you wished for. '
+  - 'Even though you had an exam starting - right at this moment in fact - '
+  - '...you couldn''t help but feel your body gravitate towards the cat''s call. '
+  - '{:'
+  - 'What''s more thrilling than skipping an exam for a quick adventure? '
+  - '*:'
+  - 'You follow the cat up the staircase to the rooftop. '
+  - '*RoofA:'
+  - 'As soon at you reach the rooftop, you are immediately greeted with a scene and
+    a half. '
+  - '>evil angry:'
+  - '&:'
+  - 'A short girl you don''t recognize is arguing with a dark figure - a boy clouded
+    in darkness. '
+  - 'Dark Figure:Yorumi, please! '
+  - '^:'
+  - 'Yorumi:I... HATE YOU! You BETRAYED me! '
+  - 'Dark Figure:Yorumi, listen! I-it was just a prank! '
+  - '^:'
+  - 'Yorumi:I can''t believe I trusted you! My ribbon... My poor, poor ribbon... '
+  - Dark Figure:Yorumi... we need to have a talk about this ribbon. It's getting
+    kind of ridi-
+  - '&:'
+  - '-:'
+  - 'This whole time you listened to their argument, Yorumi''s name seemed so familiar
+    to you. '
+  - 'And for some reason you knew she was going to jump from the building! '
+  - 'Just as Yorumi reached the ledge, you ran to her, grabbed her, and stopped her. '
+  - '>evil angry:'
+  - 'She kicked and screamed against your restraint, but you stand your ground. '
+  - '^:'
+  - 'As she struggles against you, you notice her body is ice cold. '
+  - '>annoyed:'
+  - 'It suddenly clicks with you - you read about Yorumi''s suicide some time ago! '
+  - 'Did you just stop a ghost from jumping? Aren''t ghosts untouchable or something? '
+  - 'Regardless, you realize you are in an encounter with some paranormal manifestation
+    of Yorumi. '
+  - 'Wow, this ambience has really got you thinking about paranormal activity. But
+    it seems pretty clear to you. '
+  - 'But now... there''s no way you go back to your exam now. You feel some sense
+    of responsibility for Yorumi now. '
+  - 'Now would be a good time to change the ambience - you probably don''t need this
+    ambience for the aftermath... '
+  - '*Please select a song (cannot choose the same song)* '
+  pBranches:
+  - {fileID: 11400000, guid: 01ff304b9a9b9da479714a9da242d477, type: 2}
+  - {fileID: 11400000, guid: 9f068a2c02782b041b50be39ae5662a2, type: 2}
+  - {fileID: 0}

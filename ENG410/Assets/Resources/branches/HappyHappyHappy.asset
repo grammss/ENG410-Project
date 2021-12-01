@@ -18,49 +18,71 @@ MonoBehaviour:
   - 'But with this happy music playing, your good luck song, this can only end well
     for you. '
   - 'You:Nice to meet you. Would you like to hang out? '
+  - '^:'
   - 'Yorumi starts laughing. Cute little giggles. Oh no. You said something wrong,
     didn''t you? '
   - 'But with this happy music playing, you can''t go wrong. Maybe she''s laughing
     because she thinks I''m cute? '
   - 'With that thought, you regain your confidence and try again. '
   - 'You: There''s still 2 hours before the next exam. So maybe we could -'
+  - '$:'
   - '<:'
+  - '^:'
+  - '0:'
+  - '>evil angry:'
   - 'Yorumi suddenly rips the headphone off your head! '
+  - '$:'
+  - '>happy evil:'
   - 'She throws both the headphones and music player on the floor and then pushes
     you to the ground. '
+  - '>annoyed:'
   - 'You:OW! HEY! '
   - Yorumi:You still don't get it, do you?
   - 'Confused and shaken at your music player being taken from you, you shake your
     head rapidly. '
+  - '>evil angry:'
   - 'Yorumi:I''ve been watching you. YOU. And your stupid music player. '
   - 'Yorumi:Every time you play your stupid lucky song and start coasting through
     life. '
+  - '^:'
   - Yorumi:Ooh, look at me! I just play my happy song and everything goes well for
     me!
   - 'Yorumi:You make me SICK. '
+  - '>annoyed:'
   - 'You cannot believe what you''re hearing. No one had ever criticized you for
     your music player before. '
   - 'No one had even dared take it from you. Everyone in school knew it was part
     of your identity and were cool with it. '
   - 'You managed to stutter out an apology. '
   - 'You:I- I- I''m sorry. I- I don''t know what to s-say. I- '
+  - '>happy evil:'
+  - '$:'
+  - '^:'
+  - '0:'
+  - '1:'
   - 'Yorumi suddenly stomps on the music player and headphones, with a very audible
     crunch. You could only stare in absolute shock. '
   - 'Yorumi cackles as she looks down at you on the ground, stuttering, when just
     moments ago you felt like her hero finding her ribbon. '
   - 'Yorumi:This is just how it happened. How it always happens. '
+  - '^:'
   - 'With surprising strength, Yorumi picks you up in her arms and carries you to
     the roof top edge. '
   - 'Yorumi:Only one last thing that should happen. '
   - 'Realizing what she''s about to do, you scream, and beg for your life, for a
     reason, anything! '
+  - '>annoyed:'
   - 'You:Why?! What did I do wrong?! Please! '
   - 'She holds you over the ledge. '
+  - '>happy evil:'
   - 'Yorumi:Hmph. You''ll have plenty of time to think about that, where you''re
     going. '
+  - '-:'
+  - '{:'
   - 'Yorumi drops you. You scream as you plunge into certain death. '
   - You had your lucky music player. You were playing your happiest song. Why was
     this happening?!
+  - '$:'
+  - '2:'
   - '*THUD*'
-  - '*You have died.*'
   pBranches: []

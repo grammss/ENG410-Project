@@ -22,7 +22,7 @@ public class AudioSystem : MonoBehaviour
     UpdateUI();
   }
 
-  void UpdateUI()
+  public void UpdateUI()
   {
     string sname = "";
     if (playing >= 0 && playing < songNames.Length)
@@ -37,18 +37,21 @@ public class AudioSystem : MonoBehaviour
     {
       musicText.text = "Now Playing: " + sname + "\n" + "Browsing: " + songNames[browsing];
     }
-    if (VisualNovelSystem.inst.WaitingForSongChoice())
+    if (VisualNovelSystem.inst && VisualNovelSystem.inst.WaitingForSongChoice())
       UpdatePlayButton();
   }
   public void UpdatePlayButton()
   {
-    if (bannedSongs.Contains(browsing))
+    if (VisualNovelSystem.inst)
     {
-      VisualNovelSystem.inst.DisablePlayButton();
-    }
-    else
-    {
-      VisualNovelSystem.inst.EnablePlayButton();
+      if (bannedSongs.Contains(browsing))
+      {
+        VisualNovelSystem.inst.DisablePlayButton();
+      }
+      else
+      {
+        VisualNovelSystem.inst.EnablePlayButton();
+      }
     }
   }
   public void BrowseNext()
@@ -81,7 +84,7 @@ public class AudioSystem : MonoBehaviour
   }
   public void PlaySFX(int index)
   {
-
+    SFXs[index].Play();
   }
 
   IEnumerator Loop()

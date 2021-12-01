@@ -16,25 +16,37 @@ MonoBehaviour:
   - 'You did study for the exam today. Since you feel a little nervous, some slow
     music sets the tone for you just right. '
   - You set some slow tunes, get on your bicycle and go to school.
+  - '7:'
   - '*Classroom:'
   - "You sit down for class and the teacher steps in soon after.\r The exam is starting
     now. "
+  - 'Of course, you can''t be listening to your music player now, but you hear it
+    echoing in your mind. '
+  - 'It calms your nerves as you recall all that you''ve studied. '
   - '2 hours later... '
   - 'Whew! The exam would have been tough had you not studied for it. Still, you
     aren''t in the clear yet; there is another exam today.  '
   - '*RoofA:'
-  - "A habit that stuck from your time in the city as the roof tops are generally
+  - 'After the exam you decide to go to the rooftop for some peace and quiet after
+    the exams. '
+  - "It's a habit that stuck from your time in the city as the roof tops are generally
     quiet and peaceful as it is out of bounds to students.\r "
   - "It does not really affect you since you are not really a stickler for rules.\r"
   - "You reach the rooftop and find a quiet corner to eat your lunch, but you notice
     a girl you don't recognize searching the rooftop.\r"
+  - '>worried:'
   - "You walk up to her to check if she needs help.\r"
   - "You:Hey, is there something wrong?\r"
+  - '^:'
+  - '>distressed:'
   - "Short Girl:I can't find my ribbon.\r"
+  - '>worried:'
   - "You:If you lost it recently, it couldn\u2019t have gone far.\r"
-  - "You:Why don\u2019t you take a break, I will help you search in the meantime.\r"
+  - "You:Why don\u2019t you take a break? I will help you search in the meantime.\r"
   - "You:How does it look like? Tell me more about it.\r"
-  - Yorumi:It's red, and small, so it is kind of hard to find.
+  - '^:'
+  - Short Girl:It's red and small, so it is kind of hard to find.
+  - '>distracted:'
   - '*Please select a song (can choose the same song)* '
   pBranches:
   - {fileID: 11400000, guid: e9cc74a183fd2144f8269f1ea4a7c211, type: 2}

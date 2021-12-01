@@ -24,6 +24,7 @@ MonoBehaviour:
   - 'You:So this should speed up the search. I know I''d hate to lose my lucky charm
     on the day of the exam. '
   - 'You:I''ll find your ribbon. I promise. '
+  - '>bored:'
   - 'The girl simply stares at you as you begin the search once more with renewed
     confidence. '
   - 'Sure enough, you quickly find the ribbon under one of the water tanks. Just
@@ -32,21 +33,30 @@ MonoBehaviour:
   - 'Short Girl:Wow, you actually found it. I''ve been searching for it for 4 days.
     Thanks so much. '
   - 'You:Yeah, this happy music really gives me the boost when I need it. '
+  - '+:'
   - 'She carefully wears it, with a gleam in her eye. '
+  - '>shy:'
   - 'Short Girl:You know... I have to confess something to you. '
   - 'She pauses nervously. '
   - 'Short Girl:I... never liked you. '
   - 'You:Excuse me? Um... I''m so sorry, have we met before? '
+  - '^:'
+  - '>distressed:'
   - 'Short Girl:No! We haven''t. It''s just... I''ve been watching you for a while.
     To be honest, I knew you liked coming to the rooftop. '
   - You:You were waiting for me? What for?
+  - '>worried:'
   - 'Short Girl:Well... to say I never liked you would be an understatement. '
   - 'Short Girl:I actually completely hated you. '
+  - '^:'
+  - '>distressed:'
   - 'Short Girl:And for no good reason really. I... was just jealous of you. '
+  - '>worried:'
   - 'Short Girl:I watched you with your stupid music player. Your good luck charm. '
   - 'Short Girl:I knew what it meant to you. You took it everywhere you went. And
     your life has been great. '
   - 'Short Girl:Unlike me. '
+  - '>sad:'
   - 'You think about her words carefully. Slowly you realize what she means. '
   - 'You:Your ribbon. '
   - 'Short Girl:Yes... '
@@ -59,9 +69,11 @@ MonoBehaviour:
   - 'You:Oh gosh, I just realized. The exam! You didn''t have your ribbon for the
     exam! '
   - 'You:Was the exam okay for you without the ribbon? '
+  - '>smug:'
   - 'The girl smiles weakly. '
   - 'Short Girl:Oh... right... you still don''t get it... do you...? '
   - 'You shoot the girl a confused look. '
+  - '>relieved:'
   - 'She looks at you with content, touching her trusty ribbon. '
   - 'Short Girl:Well, I guess that''s not completely true. '
   - 'Short Girl:If only... he were as understanding as you... '

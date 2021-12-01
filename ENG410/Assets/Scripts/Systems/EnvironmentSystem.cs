@@ -38,6 +38,11 @@ public class EnvironmentSystem : MonoBehaviour
     //if (envDictionary.TryGetValue("Environment[" + _name + "]", out index))
     if (envDictionary.TryGetValue("" + _name + "", out index))
       targetTexture = envs[index];
+    else
+    {
+      envTexture.sprite = null;
+      envTexture.color = Color.clear;
+    }
   }
 
   IEnumerator Loop()

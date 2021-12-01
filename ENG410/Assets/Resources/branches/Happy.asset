@@ -16,14 +16,21 @@ MonoBehaviour:
   - 'You did study for the exam today, but still, your happy, upbeat music would
     surely boost your confidence even further for it. '
   - You set some fast tunes, get on your bicycle and go to school.
+  - '7:'
   - '*Classroom:'
   - "You sit down for class and the teacher steps in soon after.\r The exam is starting
     now. "
+  - 'Of course, you can''t be listening to your music player now, but you hear it
+    echoing in your mind. '
+  - 'It fills you with confidence as you recall all that you''ve studied. '
   - '2 hours later... '
   - 'Whew! The exam would have been tough had you not studied for it. The confidence
     boost from listening to your happy music really helped too. '
+  - 'You feel like you''ll ace your next exam later today as well. '
   - '*RoofA:'
-  - "A habit that stuck from your time in the city as the roof tops are generally
+  - 'After the exam you decide to go to the rooftop for some peace and quiet after
+    the exams. '
+  - "It's a habit that stuck from your time in the city as the roof tops are generally
     quiet and peaceful as it is out of bounds to students.\r "
   - "It does not really affect you since you are not really a stickler for rules.\r "
   - "Sitting in the shade, you unpack your packed lunch and start to leisurely eat
@@ -39,12 +46,15 @@ MonoBehaviour:
   - '>worried:'
   - "A short girl was on her knees bent over searching the rooftop.\r "
   - "You:What are you doing?\r "
+  - '^:'
+  - '4:'
   - '>distressed:'
   - "Short Girl:Kyah, I didn't know there was someone here. I am searching for my
     hair ribbon.\r "
   - '>worried:'
   - "Short Girl:It was an important gift from my best friend that I just received
     last week. I must find it.\r "
+  - '7:'
   - '*Please select a song (can choose the same song)* '
   pBranches:
   - {fileID: 11400000, guid: e9cc74a183fd2144f8269f1ea4a7c211, type: 2}

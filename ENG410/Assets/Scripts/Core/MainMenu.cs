@@ -10,6 +10,7 @@ public class MainMenu : MonoBehaviour
   private void Awake()
   {
     inst = this;
+    VisualNovelSystem.inst = null;
   }
 
   private void Start()

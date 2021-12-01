@@ -16,10 +16,13 @@ MonoBehaviour:
   - 'It is the start of a brand new day. '
   - 'Roused by the incessant sounds of your alarm you stumble out of bed to get ready
     for your day. '
+  - '6:'
   - 'You take your trusty music player from your bedside table. '
   - You have an exam today, so you need the safety reassurance of your music player
     in your pocket even more today.
   - For as long as you can remember, this music player has always been with you.
+  - 'It is very old, so unfortunately you can''t download any more songs on it. '
+  - 'But still! It has 3 songs that always brings you a sense of nostalgia and comfort. '
   - 'As long as you had it with you, you felt like the world was your oyster - nothing
     could stop you. '
   - 'In fact, sometimes you feel like the music you play completely changes what
@@ -31,4 +34,4 @@ MonoBehaviour:
   pBranches:
   - {fileID: 11400000, guid: adeefc7f8048de24ea5280d790466305, type: 2}
   - {fileID: 11400000, guid: 1ffceaf2cabee01439ff47f69bd43354, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 8a64ae3359e4e7d4a9bdb13c9905ec84, type: 2}

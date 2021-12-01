@@ -13,44 +13,70 @@ MonoBehaviour:
   m_Name: SadSpooky
   m_EditorClassIdentifier: 
   story:
+  - '-:'
   - 'For some reason, you can''t help but feel that something is off with the girl. '
   - 'You play your spookiest tune to heighten your ''sus'' sensors. '
   - 'For starters, most other students never come to the rooftop for fear of punishment. '
   - 'You''ve also never seen this girl before. '
+  - '>worried:'
   - 'You:I''m sorry, but who are you? I feel like I''ve seen everyone in school before,
     but I don''t recognize you. '
+  - '>bored:'
   - 'The girl frowns at you. '
+  - '>normal:'
   - Yorumi:I'm Yorumi. I'm from class 2B. Aren't you going to help me search for
     my ribbon?
+  - '>bored:'
   - 'Yorumi... Yorumi... for some reason, that name rings a bell. A very distant
     bell. '
+  - '>normal:'
   - 'Yorumi:Is something wrong? You have a weird look on your face. '
+  - '>bored:'
   - 'You:I''m sorry, but I... how should I put this? Have we met before? '
+  - '>normal:'
   - 'Yorumi:No... why? '
+  - '>bored:'
   - 'You:I feel like I''ve heard of your name before. '
+  - '>normal:'
   - 'Yorumi:Huh. Where? '
+  - '>bored:'
   - 'You:Actually, I don''t think I heard it. I''ve SEEN it before. In- '
+  - '>smug:'
   - 'Yorumi:The library? '
   - 'You:Yes! Oh my god! Are you a- '
+  - '-:'
   - 'To answer you, Yorumi fades away... '
+  - '>smug:'
   - '...and fades back in. '
   - 'You can only stare in shock. '
+  - '^:'
+  - '>happy evil:'
   - 'Yorumi:Heheh... you know... it''s true what they say. I DO intend to kill you. '
   - 'You:No way- I- '
   - 'Yorumi starts laughing as she starts walking towards you. '
+  - '-:'
+  - '{:'
   - 'You don''t have enough time to complete your response as you dash for the staircase
     exit. '
   - 'But Yorumi catches up with you. '
+  - '>smug:'
   - 'Yorumi:Heh. '
-  - 'She drags you back to the rooftop with surprising strength. '
+  - '$:'
+  - '*RoofA:'
+  - 'She slaps you, making your head reel. She then drags you back to the rooftop
+    with surprising strength. '
+  - '>happy evil:'
   - 'Yorumi:I''ve been watching you... for a long time... '
+  - '>evil angry:'
   - 'Yorumi:I hated you... HATED you... SO much... '
+  - '>annoyed:'
   - 'You couldn''t believe your ears. Was this personal? What could it be about? '
+  - '$:'
+  - '-:'
   - 'As she continues dragging you to the rooftop ledge, you feel your hand on your
     trusty music player in your pocket. '
-  - 'This spooky music cannot continue! '
+  - 'Your mind cannot think straight. This spooky music cannot continue! '
   - '*Please select a song (cannot choose the same song)* '
   pBranches:
   - {fileID: 11400000, guid: 5c6c400a4df25044b8f9a69ff33611a8, type: 2}
   - {fileID: 11400000, guid: eaaf18087b6c66e4cb0bce8ac616b83f, type: 2}
-  - {fileID: 0}

@@ -15,19 +15,28 @@ MonoBehaviour:
   story:
   - 'You:I will help you find it. You know, I have my lucky music player here. It''s
     playing my happiest tune now, so we''ll be sure find it. '
+  - '>distracted:'
   - 'Short Girl:Oh ok. Great~! '
   - '-:'
+  - 'With the music playing, you start to focus all your attention on the ribbon
+    search. '
+  - '4:'
   - 'Sure enough, you quickly find the ribbon under one of the water tanks. Just
     as you knew you would. '
+  - '7:'
   - 'You excitedly return to the girl, feeling like a hero. '
+  - '>relieved:'
   - 'Short Girl:Wow, you actually found it. I''ve been searching for it for 4 days.
     Thanks so much. '
   - '+:'
-  - She carefully wears it, with a gleam in her eye. She starts to leave, but you
-    quickly say something.
-  - This girl... she seems really nice, so you hope to get to know her better. This
-    is your chance!
+  - '>happy evil:'
+  - 'She carefully wears it, with a gleam in her eye. '
+  - '-:'
+  - 'This girl... she seems really nice, so you hope to get to know her better. '
+  - You are right next to her! This is your chance!
+  - '>happy evil:'
   - 'You: Hey, so what''s your name? '
+  - '^:'
   - 'Yorumi: It''s Yorumi. I''m from class 2B. '
   - She suddenly seems very interested in you. For some reason, you feel butterflies
     in your stomach.

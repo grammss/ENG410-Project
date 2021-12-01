@@ -13,39 +13,70 @@ MonoBehaviour:
   m_Name: SadSpookyHappy
   m_EditorClassIdentifier: 
   story:
-  - 'You managed to play your happy-go-lucky tune during this whole ordeal. '
+  - '>evil angry:'
+  - '^:'
+  - You managed to play your happy-go-lucky tune during this whole ordeal. Everything
+    will be okay!!
+  - '^:'
+  - 'But Yorumi starts screaming bloody murder. '
+  - '^:'
   - Yorumi:I HATE THAT SONG!
   - You:What?!
-  - 'She could hear it?! '
+  - 'She can hear your song?! '
+  - '$:'
+  - '>annoyed:'
   - 'She stops walking for a moment and throws you on the floor, just to explain. '
+  - '^:'
+  - '>evil angry:'
   - 'Yorumi:Every time you play your stupid lucky song and start coasting through
     life. '
+  - '^:'
   - Yorumi:Ooh, look at me! I just play my happy song and everything goes well for
     me!
+  - '^:'
   - 'Yorumi:You make me SICK. '
+  - '>annoyed:'
   - 'You cannot believe what you''re hearing. No one had ever criticized you for
     your music player before. '
   - 'No one had even dared take it from you. Everyone in school knew it was part
     of your identity and were cool with it. '
   - 'You managed to stutter out an apology. '
   - 'You:I- I- I''m sorry. I- I don''t know what to s-say. I- '
+  - '$:'
+  - '<:'
+  - '^:'
+  - '>evil angry:'
   - 'Yorumi suddenly rips the headphone off your head! '
   - 'You:OW! HEY! '
+  - '$:'
+  - '>happy evil:'
+  - 'She throws both the headphones and music player on the floor and then pushes
+    you to the ground. '
+  - '>happy evil:'
+  - '$:'
+  - '^:'
+  - '2:'
   - 'She stomps on the music player and headphones, with a very audible crunch. You
     could only stare in absolute shock. '
   - 'Yorumi:This is just how it happened. How it always happens. '
+  - '^:'
   - 'With surprising strength, Yorumi picks you up in her arms and carries you to
     the roof top edge. '
   - 'Yorumi:Only one last thing that should happen. '
   - 'Realizing what she''s about to do, you scream, and beg for your life, for a
     reason, anything! '
+  - '>annoyed:'
   - 'You:Why?! What did I do wrong?! Please! '
   - 'She holds you over the ledge. '
+  - '>happy evil:'
   - 'Yorumi:Hmph. You''ll have plenty of time to think about that, where you''re
     going. '
   - 'Yorumi drops you. You scream as you plunge into certain death. '
+  - '-:'
+  - '{:'
   - You had your lucky music player. You were playing your happiest song. Why was
     this happening?!
+  - '$:'
+  - '2:'
   - '*THUD*'
-  - '*You have died.*'
   pBranches: []
