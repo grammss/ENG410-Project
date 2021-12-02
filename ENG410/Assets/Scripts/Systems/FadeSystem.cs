@@ -108,23 +108,34 @@ public class FadeSystem : MonoBehaviour
   IEnumerator LoadMenu()
   {
     fading = true;
+    if (endtxt)
+    {
+      for (float t = 0; t <= 1; t += Time.deltaTime * 2)
+      {
+        endtxt.color = Color.Lerp(new Color(1, 1, 1, 0), Color.white, t);
+        yield return null;
+      }
+      endtxt.color = Color.white;
+      yield return new WaitForSeconds(2);
+    }
+    if (endtxt)
+    {
+      for (float t = 0; t <= 1; t += Time.deltaTime * 2)
+      {
+        endtxt.color = Color.Lerp(Color.white, new Color(1, 1, 1, 0), t);
+        yield return null;
+      }
+      endtxt.color = new Color(1, 1, 1, 0);
+    }
+    fg.gameObject.SetActive(true);
     for (float t = 0; t <= 1; t += Time.deltaTime * 2)
     {
-      endtxt.color = Color.Lerp(new Color(1, 1, 1, 0), Color.white, t);
+      fg.color = Color.Lerp(Color.clear, Color.black, t);
       yield return null;
     }
-    endtxt.color = Color.white;
+    fg.color = Color.black;
     fading = false;
-    yield return new WaitForSeconds(2);
-    fading = true;
-    for (float t = 0; t <= 1; t += Time.deltaTime * 2)
-    {
-      endtxt.color = Color.Lerp(Color.white, new Color(1, 1, 1, 0), t);
-      yield return null;
-    }
-    endtxt.color = new Color(1, 1, 1, 0);
     yield return new WaitForSeconds(1);
-    fading = false;
     SceneManager.LoadScene("MainMenu");
     yield return null;
   }
