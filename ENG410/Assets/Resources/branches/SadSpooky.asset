@@ -78,5 +78,6 @@ MonoBehaviour:
   - 'Your mind cannot think straight. This spooky music cannot continue! '
   - '*Please select a song (cannot choose the same song)* '
   pBranches:
-  - {fileID: 11400000, guid: 5c6c400a4df25044b8f9a69ff33611a8, type: 2}
-  - {fileID: 11400000, guid: eaaf18087b6c66e4cb0bce8ac616b83f, type: 2}
+  - {fileID: 11400000, guid: 8023af7faa4d62a4d9b807c0e0a9eaeb, type: 2}
+  - {fileID: 11400000, guid: 4e35df76f46e0b94387c9c51d94805e1, type: 2}
+  - {fileID: 0}

@@ -103,7 +103,7 @@ public class VisualNovelSystem : MonoBehaviour
 
   public bool WaitingForSongChoice()
   {
-    return speechCount >= currentBranch.story.Count;
+    return speechCount >= currentBranch.story.Count && currentBranch.pBranches.Count != 0;
   }
 
   IEnumerator Loop()
